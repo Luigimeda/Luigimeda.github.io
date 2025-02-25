@@ -47,6 +47,21 @@
             border-radius: 15px;
             box-shadow: 0 40px 80px rgba(255, 255, 255, 0.3);
         }
+
+        h2 {
+            font-size: 35px;
+            margin-bottom: 20px;
+            text-shadow: 0 0 10px rgba(0, 162, 255, 0.8);
+        }
+
+        .content {
+            position: relative;
+            z-index: 1; /* Lo mantiene sopra lo sfondo */
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+        }
         
         .btn {
             display: inline-block;
@@ -84,7 +99,9 @@
     <div class="image-container">
         <img src="Screenshot 2025-02-24 alle 13.33.38.png" alt="Panoramica">
         <br>
-        <p>Qui di seguito l'esito di alcuni test</p>
+        <div class="content">
+            <h2>Qui di seguito l'esito di alcuni test</h2>
+        </div>
         <br>
         <img src="Screenshot 2025-02-25 alle 10.39.23.png" alt="Panoramica">
     </div>
